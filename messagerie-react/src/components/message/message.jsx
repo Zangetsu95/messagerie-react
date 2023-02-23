@@ -1,11 +1,13 @@
+import style from './message.module.css';
 
 const Message = ({data}) => {
 
 return (
   <>
-   <p>Bienvenue {data}</p> 
-    
-    <h2>Ceci est mon message</h2>
+   <h2>{data}, voici le message sélectionné </h2> 
+    <div className={style.messageDeco}>
+    <p>Ceci est mon message</p>
+    </div>
   </>
 )
 

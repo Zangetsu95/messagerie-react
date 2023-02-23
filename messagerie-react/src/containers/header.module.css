@@ -1,3 +1,5 @@
-h1 {
-  text-align: center;
+header{
+  margin: 0;
+  padding:15px;
+  background-color: khaki;
 }
